@@ -1,3 +1,9 @@
+# revision 24055
+# category Package
+# catalog-ctan /macros/latex/contrib/msu-thesis
+# catalog-date 2011-09-21 01:15:36 +0200
+# catalog-license lppl1.3
+# catalog-version 2.1
 Name:		texlive-msu-thesis
 Version:	2.1
 Release:	1
@@ -50,6 +56,7 @@ class.
 %doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-testfile.pdf
 %doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-testfile.tex
 %doc %{_texmfdistdir}/doc/msu-thesis/samples/unified.bst
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
