@@ -1,12 +1,12 @@
-# revision 24055
+# revision 27141
 # category Package
 # catalog-ctan /macros/latex/contrib/msu-thesis
-# catalog-date 2011-09-21 01:15:36 +0200
+# catalog-date 2012-07-06 10:47:39 +0200
 # catalog-license lppl1.3
-# catalog-version 2.1
+# catalog-version 2.2
 Name:		texlive-msu-thesis
-Version:	2.1
-Release:	2
+Version:	2.2
+Release:	1
 Summary:	Class for Michigan State University Master's and PhD theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msu-thesis
@@ -40,13 +40,13 @@ class.
 %{_texmfdistdir}/tex/latex/msu-thesis/msu-thesis.cls
 %doc %{_texmfdistdir}/doc/latex/msu-thesis/README
 %doc %{_texmfdistdir}/doc/latex/msu-thesis/msu-thesis.pdf
-%doc %{_texmfdistdir}/doc/msu-thesis/msu-thesis.tex
-%doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-template.pdf
-%doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-template.tex
-%doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-testfile.bib
-%doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-testfile.pdf
-%doc %{_texmfdistdir}/doc/msu-thesis/samples/MSU-thesis-testfile.tex
-%doc %{_texmfdistdir}/doc/msu-thesis/samples/unified.bst
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/msu-thesis.tex
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-template.pdf
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-template.tex
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-testfile.bib
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-testfile.pdf
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-testfile.tex
+%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/unified.bst
 
 #-----------------------------------------------------------------------
 %prep
