@@ -1,12 +1,6 @@
-# revision 28422
-# category Package
-# catalog-ctan /macros/latex/contrib/msu-thesis
-# catalog-date 2012-12-02 13:05:20 +0100
-# catalog-license lppl1.3
-# catalog-version 2.3
 Name:		texlive-msu-thesis
-Version:	2.3
-Release:	9
+Version:	2.8
+Release:	1
 Summary:	Class for Michigan State University Master's and PhD theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msu-thesis
@@ -36,17 +30,8 @@ class.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/msu-thesis/gb4e-compat.tex
-%{_texmfdistdir}/tex/latex/msu-thesis/msu-thesis.cls
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/README
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/msu-thesis.pdf
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/msu-thesis.tex
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-template.pdf
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-template.tex
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-testfile.bib
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-testfile.pdf
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/MSU-thesis-testfile.tex
-%doc %{_texmfdistdir}/doc/latex/msu-thesis/samples/unified.bst
+%{_texmfdistdir}/tex/latex/msu-thesis
+%doc %{_texmfdistdir}/doc/latex/msu-thesis
 
 #-----------------------------------------------------------------------
 %prep
