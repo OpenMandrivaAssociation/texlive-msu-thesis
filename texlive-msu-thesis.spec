@@ -1,5 +1,5 @@
 Name:		texlive-msu-thesis
-Version:	64154
+Version:	65282
 Release:	1
 Summary:	Class for Michigan State University Master's and PhD theses
 Group:		Publishing
