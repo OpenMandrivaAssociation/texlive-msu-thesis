@@ -1,6 +1,6 @@
 Name:		texlive-msu-thesis
-Version:	65462
-Release:	2
+Version:	67227
+Release:	1
 Summary:	Class for Michigan State University Master's and PhD theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msu-thesis
