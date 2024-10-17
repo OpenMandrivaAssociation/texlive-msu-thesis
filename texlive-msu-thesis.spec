@@ -3,7 +3,7 @@ Version:	71883
 Release:	1
 Summary:	Class for Michigan State University Master's and PhD theses
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msu-thesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/msu-thesis
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/msu-thesis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/msu-thesis.doc.r%{version}.tar.xz
